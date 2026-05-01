@@ -50,10 +50,12 @@ Kali Linux (Agent) -> Wazuh Agent -> Wazuh Manager (VM) -> Wazuh Indexer + Dashb
 
      In the Import dialog: click the folder icon and select the downloaded wazuh-4.13.1.ova file, Review the VM settings and click Import.
 
-   <img width="709" height="401" alt="image" src="https://github.com/user-attachments/assets/c18357e7-7c6b-4660-8725-2fbe723a3648" />
+   
+    ![VM](screenshots/vm.png)
+   
 
 
-3. Configure:
+4. Configure:
 
      RAM: 4–8 GB
    
@@ -70,13 +72,13 @@ Kali Linux (Agent) -> Wazuh Agent -> Wazuh Manager (VM) -> Wazuh Indexer + Dashb
 
    
 
-   <img width="463" height="344" alt="image" src="https://github.com/user-attachments/assets/9ab01562-99d3-48be-9531-6814bd74c3ce" />
+   ![Wazuh Manager VM](screenshots/wazuh-manager-vm.png)
 
 
 
 
 
-   <img width="461" height="348" alt="image" src="https://github.com/user-attachments/assets/65464223-d35a-4375-9bff-a1d0aa612118" />
+   ![Wazuh Manager VM 2](screenshots/wazuh-manager-vm2.png)
 
 7. Access Dashboard:
      Open the web browser on the Kali Linux VM and navigate to the Wazuh Webpage using the IP address
@@ -88,26 +90,26 @@ Kali Linux (Agent) -> Wazuh Agent -> Wazuh Manager (VM) -> Wazuh Indexer + Dashb
          password: admin
 
 
-   <img width="768" height="392" alt="image" src="https://github.com/user-attachments/assets/ce2507c8-98ab-43b9-aeb4-605c0c0af95f" />
+   ![Wazuh Webpage](screenshots/wazuh-webpage.png)
 
 
 
 
 
-   <img width="768" height="398" alt="image" src="https://github.com/user-attachments/assets/540a2333-1f4b-4443-b4e1-db530379527e" />
+   ![Wazuh Webpage 2](screenshots/wazuh-webpage2.png)
 
    
 ### Wazuh agent setup on kali linux
 1. Navigate to Wazuh Dashboard and deploy new agent. Copy-paste the given commands into the terminal and run it:
    
 
-    <img width="761" height="391" alt="image" src="https://github.com/user-attachments/assets/196c0c4b-1f6f-45df-bfb5-c803b0407b89" />
+    ![Wazuh New Agent](screenshots/wazuh-new-agent.png)
 
 
 
 
 
-    <img width="755" height="394" alt="image" src="https://github.com/user-attachments/assets/e09a825a-d35e-440f-8610-1e524c73cabc" />
+    ![Wazuh New Agent 2](screenshots/wazuh-new-agent2.png)
 
 
 2. Verify Agent Connection:
@@ -117,7 +119,7 @@ Kali Linux (Agent) -> Wazuh Agent -> Wazuh Manager (VM) -> Wazuh Indexer + Dashb
     Expected: Active
 
 
-    <img width="759" height="393" alt="image" src="https://github.com/user-attachments/assets/d6cc20f3-ca6e-4e7e-a4ab-a0b9c80cfd27" />
+    ![Agent Active](screenshots/agent-active.png)
 
 
     
@@ -129,13 +131,13 @@ The agent’s Active status in the Wazuh dashboard shows that it has been succes
        Dashboard → Explore → Discover
 
 
-    <img width="756" height="391" alt="image" src="https://github.com/user-attachments/assets/c2ac03d6-5827-4e44-aaa3-871337dce171" />
+    ![Wazuh Logs](screenshots/wazuh-logs.png)
 
 
 
 
 
-    <img width="763" height="394" alt="image" src="https://github.com/user-attachments/assets/055baad8-e38c-494b-a85b-5be480704359" />
+    ![Wazuh Logs 2](screenshots/wazuh-logs2.png)
 
 
     
