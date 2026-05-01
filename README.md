@@ -193,3 +193,10 @@ This confirms:
 
 ## Learned
 Developed an understanding of SIEM architecture and workflow, gained hands-on experience in log forwarding, performed basic troubleshooting during SIEM deployment, and built a foundation in security monitoring and analysis.
+
+
+## Additional Documentation
+
+Full project report:
+
+[Download PDF](Wazuh_Project_Report.pdf)
